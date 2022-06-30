@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*ID em HTML = # em CSS
+  em Html é class = . em CSS*/ 
+  :-moz-any()
+
+body{background-color: rgb(173, 173, 173);}
+
+h1{color: green;}
+
+#Principal{text-align:center; background-color: white; color: black;}
+
+h2{color: aqua;}
+
+.basico{color: red ; text-align: right;}
+
+.avancado{color: blueviolet; text-align: center;}
