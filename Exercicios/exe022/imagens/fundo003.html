@@ -8,15 +8,18 @@
 
     <style>
         body{
+            height: 100vh;
             background-color: black;
         background-image: url(images/wallpaper002.jpg);
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: 100%;}
+        background-position: center center;
+        background-repeat: repeat-y;
+        background-size: cover;
+        background-attachment:scroll ;} /* o scroll serve p o fundo ir junto cmo a rolagem, mas poderia ser "fixed", q deixa parado em todos  dispositivos*/
 
+                /* shorthand funciona nessa ordem- background: color > image > position > repeat > size > attachment*/
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border-radius: 15px;
