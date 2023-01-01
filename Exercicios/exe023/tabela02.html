@@ -14,11 +14,25 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
         }
 
         td, th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
         }
 
         thead, tfoot{
@@ -29,12 +43,18 @@
         td.num{
             text-align: right;
         }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
     <!--
         anatomia para tabelas grandes
+       
         TABLE
+            caption(legenda da tabela)
             Thead
                 TR, TD, TH
             TBODY
@@ -44,16 +64,105 @@
     
 
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
                 <th>Estado</th>
-                <th>População</th>
+                <th style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <Td  class="num4">45 919 049</Td>
+                <Td  class="num">45 919 049</Td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <Td  class="num">45 919 049</Td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <Td  class="num">45 919 049</Td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <Td  class="num">45 919 049</Td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <Td  class="num">45 919 049</Td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <Td  class="num">45 919 049</Td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <Td  class="num">45 919 049</Td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <Td  class="num">45 919 049</Td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <Td  class="num">45 919 049</Td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <Td  class="num">45 919 049</Td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <Td  class="num">45 919 049</Td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <Td  class="num">45 919 049</Td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
