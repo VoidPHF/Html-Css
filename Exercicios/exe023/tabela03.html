@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de células</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de celulas</h1>
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>  <!--Colspan é usado quando em uma das colunas NÃO possui todos elementos, dai ele cria um espaçamento-->
+        </tr>
+        <tr>
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td colspan="2">H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td colspan="3">M</td>
+        </tr>
+    </table>
+</body>
+</html>
